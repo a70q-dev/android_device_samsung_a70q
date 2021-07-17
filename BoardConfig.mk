@@ -18,6 +18,10 @@ include device/samsung/sm6150-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/a70q
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_a70q
+TARGET_RECOVERY_DEVICE_MODULES := libinit_a70q
+
 # Kernel
 BOARD_NAME               := SRPRL06C001
 BOARD_HEADER_VERSION     := 1
