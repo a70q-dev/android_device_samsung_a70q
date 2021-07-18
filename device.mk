@@ -28,10 +28,6 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Inherit Common Device Tree
 $(call inherit-product, device/samsung/sm6150-common/sm6150.mk)
-
-# Init
-PRODUCT_PACKAGES += \
-    fstab.qcom
     
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
