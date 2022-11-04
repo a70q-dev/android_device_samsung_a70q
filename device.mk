@@ -25,6 +25,21 @@ DEVICE_PATH := device/samsung/a70q
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Audio
+PRODUCT_PACKAGES += \
+    audio.a2dp.default \
+    audio.primary.default \
+    audio.r_submix.default \
+    audio.usb.default \
+    cplay \
+    libaudioroute \
+    libaudioutils \
+    libtinyalsa \
+    tinycap \
+    tinymix \
+    tinypcminfo \
+    tinyplay \
+
 # Display
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
