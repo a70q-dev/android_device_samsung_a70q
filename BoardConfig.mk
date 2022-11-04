@@ -207,5 +207,11 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2022-06-01
 
+# SEPolicy
+TARGET_SEPOLICY_DIR := msmsteppe
+include device/qcom/sepolicy_vndr/SEPolicy.mk
+
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Get non-open-source specific aspects
 include vendor/samsung/a70q/BoardConfigVendor.mk
