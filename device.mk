@@ -40,6 +40,10 @@ PRODUCT_PACKAGES += \
     tinypcminfo \
     tinyplay \
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0 \
+
 # Display
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
