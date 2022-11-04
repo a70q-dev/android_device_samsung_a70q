@@ -16,6 +16,8 @@
 
 BOARD_VENDOR := samsung
 
+BUILD_BROKEN_DUP_RULES := true
+
 DEVICE_PATH := device/samsung/a70q
 
 # 64 Bit
