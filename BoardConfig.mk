@@ -21,6 +21,9 @@ DEVICE_PATH := device/samsung/a70q
 # 64 Bit
 TARGET_USES_64_BIT_BINDER := true
 
+# APEX
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
