@@ -225,5 +225,8 @@ include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# Treble
+BOARD_VNDK_VERSION := current
+
 # Get non-open-source specific aspects
 include vendor/samsung/a70q/BoardConfigVendor.mk
