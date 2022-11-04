@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+BOARD_VENDOR := samsung
+
 DEVICE_PATH := device/samsung/a70q
 
 # 64 Bit
@@ -144,6 +146,9 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := a70q_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/sm6150
+
+# Keymaster
+TARGET_KEYMASTER_VARIANT := samsung
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
