@@ -646,6 +646,7 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.samsung-multihal \
     android.hardware.sensors@2.0-ScopedWakelock.vendor \
     libsensorndkbridge \
+    sensors.samsung \
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/etc/permissions/com.samsung.permission.SSENSOR.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.samsung.permission.SSENSOR.xml \
