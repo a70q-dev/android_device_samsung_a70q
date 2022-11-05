@@ -697,6 +697,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndservicemanager \
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.a70q \
+
 # WiFi
 PRODUCT_PACKAGES += \
     WifiOverlay \
