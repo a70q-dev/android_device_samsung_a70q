@@ -454,6 +454,14 @@ PRODUCT_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay-lineage \
 
 # Performance
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.0 \
+    vendor.qti.hardware.perf@2.1 \
+    vendor.qti.hardware.perf@2.2 \
+    vendor.qti.hardware.perf@2.0.vendor \
+    vendor.qti.hardware.perf@2.1.vendor \
+    vendor.qti.hardware.perf@2.2.vendor \
+
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     $(DEVICE_PATH)/rootdir/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
