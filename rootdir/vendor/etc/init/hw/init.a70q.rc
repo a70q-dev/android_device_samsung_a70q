@@ -109,13 +109,6 @@ on post-fs
      chown radio system /efs/carrier
      chown radio system /efs/carrier/HiddenMenu
 
-# Samsung Pay
-    mkdir /efs/pfw_data 0760 vendor_spay vendor_spay
-
-# MST/NFC Switch
-    chown vendor_spay system /dev/mst_ctrl
-    chmod 0660 /dev/mst_ctrl    
-
 # Fingerprint sensor
     chmod 0660 /dev/esfp0
     chown system system /dev/esfp0
