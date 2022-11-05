@@ -318,6 +318,13 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor \
 
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml \
+    libipanat \
+    liboffloadhal \
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/vendor/usr/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
