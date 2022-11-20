@@ -83,6 +83,7 @@ vendor/lib64/libsecaudioinfo.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 
 # Audio Configs
+vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/audconf/ACR/Bluetooth_cal.acdb
 vendor/etc/audconf/ACR/Codec_cal.acdb
 vendor/etc/audconf/ACR/General_cal.acdb
@@ -797,6 +798,14 @@ vendor/bin/lowi-server
 vendor/bin/xtra-daemon
 vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
 -vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
+vendor/etc/floating_feature.xml
+vendor/etc/flp.conf
+vendor/etc/gnss_antenna_info.conf
+vendor/etc/gpfspath_oem_config.xml
+vendor/etc/gps.conf
+vendor/etc/izat.conf
+vendor/etc/lowi.conf
+vendor/etc/sap.conf
 vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so
 vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
 vendor/lib/libbatching.so
@@ -1000,6 +1009,11 @@ vendor/lib64/libswvdec.so
 # Perf
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
+vendor/etc/perf/commonresourceconfigs.xml
+vendor/etc/perf/perfboostsconfig.xml
+vendor/etc/perf/perfconfigstore.xml
+vendor/etc/perf/targetconfig.xml
+vendor/etc/perf/targetresourceconfigs.xml
 vendor/lib/libperfconfig.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libperfioctl.so
@@ -1038,6 +1052,14 @@ vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 # Qualcomm MSM Interface
 vendor/bin/irsc_util
 vendor/bin/pd-mapper
+vendor/etc/secnvm/k250a_00000200.img
+vendor/etc/ssg/ta_config.json
+vendor/etc/ssg/tz_whitelist.json
+vendor/etc/str/str_preference_data.dat
+vendor/etc/msm_irqbalance.conf
+vendor/etc/sec_config
+vendor/etc/sec_config_oem
+vendor/etc/snap_gpu_kernel_64.bin
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
