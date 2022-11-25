@@ -143,7 +143,9 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     com.qualcomm.qti.bluetooth_audio@1.0 \
     com.qualcomm.qti.bluetooth_audio@1.0.vendor \
+    liba2dpoffload \
     libbluetooth_audio_session \
+    libbluetooth_qti \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor \
