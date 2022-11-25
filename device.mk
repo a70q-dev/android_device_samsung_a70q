@@ -499,13 +499,10 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti \
+    android.hardware.power-service.samsung-libperfmgr \
     android.hardware.power.stats@1.0-service.mock \
     android.hardware.power@1.3 \
     android.hardware.power@1.3.vendor \
-
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/rootdir/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
 
 # Protobuf
 PRODUCT_PACKAGES += \
@@ -627,6 +624,9 @@ PRODUCT_COPY_FILES += \
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel \
+    hardware/samsung/aidl/power-libperfmgr \
 
 # Telephony
 PRODUCT_PACKAGES += \
