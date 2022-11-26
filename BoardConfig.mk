@@ -145,6 +145,9 @@ DEVICE_MANIFEST_FILE := \
 DEVICE_MATRIX_FILE := \
     $(DEVICE_PATH)/compatibility_matrix.xml
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_a70q
+
 # Kernel
 BOARD_HEADER_VERSION := 1
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
