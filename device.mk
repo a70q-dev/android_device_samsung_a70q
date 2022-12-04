@@ -462,6 +462,7 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    fstab.qcom_ramdisk \
     init.a70q.rc \
     init.nfc.samsung.rc \
     init.qcom.factory.rc \
