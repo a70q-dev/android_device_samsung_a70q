@@ -537,9 +537,6 @@ PRODUCT_COPY_FILES += \
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
-    hardware/google/interfaces \
-    hardware/google/pixel \
-    hardware/samsung/aidl/power-libperfmgr \
 
 # Telephony
 PRODUCT_PACKAGES += \
