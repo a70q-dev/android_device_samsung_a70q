@@ -1,6 +1,5 @@
-allow hal_lineage_touch_default sysfs_input:dir search;
-allow hal_lineage_touch_default sysfs_input:file rw_file_perms;
+# hal_lineage_touch_default.te
 
-allow hal_lineage_touch_default sysfs_virtual:dir search;
-allow hal_lineage_touch_default sysfs_virtual:file { open read getattr };
-allow hal_lineage_touch_default sysfs_virtual:lnk_file read;
+allow hal_lineage_touch_default sysfs_sec_touchscreen:dir search;
+allow hal_lineage_touch_default sysfs_sec_touchscreen:file r_file_perms;
+allow hal_lineage_touch_default sysfs_touchscreen_writable:file rw_file_perms;
