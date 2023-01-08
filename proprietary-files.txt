@@ -663,7 +663,7 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 # Device Health
 vendor/bin/hw/android.hardware.health@2.1-service-samsung
 vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
--vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml
+vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml
 vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so
 vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
@@ -715,7 +715,7 @@ vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/bin/hdcp1prov
 vendor/bin/hdcp2p2prov
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/libcpion.so
 vendor/lib/libhdcp1prov.so
@@ -795,7 +795,7 @@ vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/xtra-daemon
 vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
--vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
+vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
 vendor/etc/floating_feature.xml
 vendor/etc/flp.conf
 vendor/etc/gnss_antenna_info.conf
@@ -1236,7 +1236,7 @@ vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
 vendor/bin/thermal-engine
 vendor/etc/init/init_thermal-engine.rc
 vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
--vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
+vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
 vendor/etc/thermal-engine.conf
 vendor/lib/libhypervintf.so
 vendor/lib/libthermalclient.so
@@ -1247,7 +1247,7 @@ vendor/lib64/vendor.samsung.hardware.hyper-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.thermal@1.0.so
 
 # Time
--vendor/app/TimeService/TimeService.apk
+vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib/libtime_genoff.so
