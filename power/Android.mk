@@ -1,3 +1,19 @@
+#
+# Copyright (C) 2022-2023 The LineageOS Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(call is-vendor-board-platform,QCOM),true)
@@ -12,7 +28,7 @@ LOCAL_SHARED_LIBRARIES := \
     libdl \
     libbase \
     libutils \
-    android.hardware.power-V1-ndk_platform \
+    android.hardware.power-V1-ndk \
     libbinder_ndk
 
 LOCAL_HEADER_LIBRARIES := \
@@ -29,7 +45,11 @@ LOCAL_SRC_FILES := \
 
 LOCAL_CFLAGS += -Wall -Wextra -Werror
 
-ifeq ($(call is-board-platform-in-list,sm6150), true)
+ifneq ($(BOARD_POWER_CUSTOM_BOARD_LIB),)
+    LOCAL_WHOLE_STATIC_LIBRARIES += $(BOARD_POWER_CUSTOM_BOARD_LIB)
+else
+
+ifeq ($(call is-board-platform-in-list,msmnile), true)
 LOCAL_SRC_FILES += power-sm6150.c
 endif
 
@@ -61,3 +81,4 @@ LOCAL_VENDOR_MODULE := true
 LOCAL_VINTF_FRAGMENTS := android.hardware.power-service-qti-a70q.xml
 
 include $(BUILD_EXECUTABLE)
+endif

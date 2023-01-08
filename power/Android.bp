@@ -1,5 +1,5 @@
 cc_library_headers {
-    name: "a70q_qti_powerhal_headers",
+    name: "a70q_powerhal_headers",
     vendor_available: true,
     export_include_dirs: ["."],
 }
