@@ -30,7 +30,6 @@ type gatekeeper_vendor_data_file, file_type, data_file_type;
 
 # EFS types
 type app_efs_file, file_type;
-type battery_efs_file, file_type;
 type audio_efs_file, file_type;
 type battery_efs_file, file_type;
 type biometrics_efs_file, file_type;
@@ -39,6 +38,7 @@ type imei_efs_file, file_type;
 type nfc_efs_file, file_type;
 type pfw_efs_file, file_type;
 type prov_efs_file, file_type;
+type sec_poc_file, file_type;
 type wifi_efs_file, file_type;
 
 # PROC
