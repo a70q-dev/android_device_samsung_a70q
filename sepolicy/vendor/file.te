@@ -30,6 +30,7 @@ type gatekeeper_vendor_data_file, file_type, data_file_type;
 
 # EFS types
 type app_efs_file, file_type;
+type battery_efs_file, file_type;
 type audio_efs_file, file_type;
 type battery_efs_file, file_type;
 type biometrics_efs_file, file_type;
