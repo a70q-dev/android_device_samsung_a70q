@@ -553,7 +553,8 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.a70q \
+    vendor.qti.hardware.vibrator.impl \
+    vendor.qti.hardware.vibrator.service \
 
 # WiFi
 PRODUCT_PACKAGES += \
