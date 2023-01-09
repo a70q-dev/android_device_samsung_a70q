@@ -222,16 +222,9 @@ SIM_COUNT := 2
 
 # Rootfs
 BOARD_ROOT_EXTRA_FOLDERS := \
-    carrier \
-    dqmdbg \
     efs \
-    keydata \
-    keyrefuge \
     metadata \
     omr \
-    optics \
-    prism \
-    spu \
 
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 

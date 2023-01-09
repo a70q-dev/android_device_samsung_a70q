@@ -1,12 +1,15 @@
-# device.te
-type efs_block_device, dev_type;
-type dtbo_block_device, dev_type;
-type modem_block_device, dev_type;
-type omr_block_device, dev_type;
-type firmware_block_device, dev_type;
-type dsp_block_device, dev_type;
-type sec_efs_block_device, dev_type;
-
+type botablk_device, dev_type;
+type debug_block_device, dev_type;
 type drb_device, dev_type;
+type dsp_block_device, dev_type;
+type dun_device, dev_type;
+type efs_block_device, dev_type;
 type fp_sensor_device, dev_type;
-type radio_qos_device, dev_type;
+type hiddenblk_device, dev_type;
+type kgsl_device, dev_type;
+type omr_block_device, dev_type;
+type paramblk_device, dev_type;
+type sec_efs_block_device, dev_type;
+type ssdblk_device, dev_type;
+type steady_block_device, dev_type;
+type tz_device, dev_type;
