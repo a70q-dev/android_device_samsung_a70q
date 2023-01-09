@@ -65,6 +65,7 @@
 
 # VENDOR
 /(vendor|system/vendor)/bin/hw/android.hardware.biometrics.fingerprint@2.3-service-a70q              u:object_r:hal_fingerprint_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.camera\.provider@2\.6-service\.a70q                u:object_r:hal_camera_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.health@2\.1-service-samsung                        u:object_r:hal_health_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.radio@1\.5-radio-service\.samsung                  u:object_r:hal_radio_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@4\.0-service\.samsung                    u:object_r:hal_keymaster_default_exec:s0
@@ -77,7 +78,6 @@
 /(vendor|system/vendor)/bin/hw/nxp\.android\.hardware\.nfc@1\.1-service                              u:object_r:hal_nfc_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service.samsung-qcom\.a70q          u:object_r:hal_lineage_livedisplay_sysfs_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.samsung                          u:object_r:hal_lineage_touch_default_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.camera\.provider@4\.[0-9]-service          u:object_r:hal_camera_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.miscpower@2\.0-service                     u:object_r:hal_power_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.radio\.configsvc@1\.0-service              u:object_r:hal_radio_config_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.thermal@1\.0-service                       u:object_r:hal_thermal_default_exec:s0

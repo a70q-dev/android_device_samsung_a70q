@@ -93,7 +93,6 @@ persist.vendor.cne.feature=0
 # Camera
 camera.aux.packagelist=com.android.camera
 camera.disable_zsl_mode=1
-vendor.camera.aux.packagelist=com.android.camera
 
 # Charger
 ro.charger.enable_suspend=true

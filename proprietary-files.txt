@@ -380,11 +380,9 @@ vendor/firmware/apbtfw11.tlv
 vendor/firmware/apnv11.bin
 
 # Camera
-vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service
 vendor/bin/hw/vendor.samsung.hardware.snap@1.2-service
 vendor/bin/snap_utility_64
 vendor/etc/init/snap_utility.rc
-vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.snap@1.2-service.rc
 vendor/lib/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib/camera/components/com.qti.eisv2.so

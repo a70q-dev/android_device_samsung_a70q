@@ -135,6 +135,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.common@2.0.vendor \
     android.frameworks.cameraservice.device@2.0.vendor \
     android.frameworks.cameraservice.service@2.1.vendor \
+    android.hardware.camera.provider@2.6-service.a70q \
     android.hardware.camera.provider@2.7.vendor \
     android.hardware.camera.device@3.7.vendor \
     libcamera2ndk_vendor \
